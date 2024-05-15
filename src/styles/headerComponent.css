@@ -1,0 +1,85 @@
+.home-nav {
+  position: fixed;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  padding: 0 1rem;
+  width: 100%;
+  z-index: 999;
+}
+header .nav {
+  background: rgba(5, 52, 92, 0.5);
+  padding: 0.5rem;
+  position: fixed;
+  right: 2rem;
+  margin-top: -1rem;
+  flex-wrap: wrap;
+  display: flex;
+}
+header a {
+  margin: 0 25px;
+}
+.logo {
+  margin-left: 4rem;
+}
+.toggle {
+  cursor: pointer;
+  color: var(--white);
+  display: none;
+}
+.toggle svg {
+  font-size: 3rem;
+}
+
+.toggle-opened {
+  margin-top: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin: 0;
+  }
+  header {
+    width: 100vw;
+    margin-top: 2rem;
+    padding: 0;
+  }
+  header .nav {
+    display: none;
+  }
+  header a {
+    width: 100%;
+    display: block;
+    color: var(--white);
+    padding: 0.8rem;
+    position: relative;
+    text-decoration: none;
+  }
+  .hideMenu a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80vh;
+    height: 1px;
+    background-color: #000; /* You can set the color of the line */
+    display: block;
+  }
+
+  .toggle {
+    display: block;
+    font-size: 25px;
+    background: none;
+  }
+  .hideMenu {
+    display: block;
+    position: absolute;
+    top: 4vh;
+    left: 0;
+    width: 100%;
+    background-color: var(--headingColor);
+  }
+}

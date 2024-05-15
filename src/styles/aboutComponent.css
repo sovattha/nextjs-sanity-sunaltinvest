@@ -1,0 +1,247 @@
+.about {
+  position: relative;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: 100%;
+}
+.box-about {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  align-items: center;
+  color: var(--beige-color);
+  place-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  max-width: none;
+  position: relative;
+}
+
+/* .box-counter-about {
+    padding: 0.8rem;
+    position: relative;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box-counter-about::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1px;
+    background: var(--beige-color);
+}
+
+.box-counter-about h1 {
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--beige-color);
+}
+.box-counter-about h3 {
+    color: var(--black);
+} */
+
+.row-advantages {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.card-advantages {
+  box-shadow: 0px 1px 5px var(--beige-color);
+  padding: 0;
+  max-width: 100%;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  cursor: auto;
+}
+.card-advantages p {
+  color: var(--beige-color);
+  font-size: 18px;
+  text-align: center;
+}
+.card-advantages i svg {
+  font-size: 2.5rem;
+}
+.card-advantages:hover {
+  transform: translateZ(0) scale(1.05) !important;
+}
+
+.about-container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.about-container-grid > div {
+  padding: 1rem;
+}
+.grid-img-fondateurs {
+  display: flex;
+  height: max-content;
+  align-self: baseline;
+}
+.text-justify {
+  text-align: justify;
+}
+
+#about-first-cover {
+  object-fit: contain;
+  max-width: 60vh;
+}
+#about-second-cover {
+  object-fit: contain;
+  max-width: 60vh;
+}
+
+.about-sub-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about-sub-content h3 {
+  color: var(--sliver);
+  font-weight: bold;
+  font-size: larger;
+  margin: 20px 0;
+  border-left: 4px solid var(--cyan-color);
+  padding-left: 20px;
+}
+.sub-content-list {
+  color: silver;
+}
+.about-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.about-button button {
+  width: 100%;
+}
+
+.about-icons {
+  color: silver;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.about .heading {
+  text-align: left;
+  margin: 0;
+}
+
+.wrapper-content-image {
+  display: flex;
+  gap: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .row-advantages {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .row-advantages {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 992px) {
+  .wrapper-content-image {
+    gap: 1rem;
+  }
+  .row-advantages {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  #root {
+    width: 100vw;
+  }
+  .about {
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .wrapper-about {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wrapper-50 {
+    width: 100%;
+  }
+  .box-about {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .box-counter-about h1 {
+    font-size: 1.3rem;
+  }
+  .box-counter-about {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-container-grid {
+    display: contents;
+  }
+  #about-first-cover {
+    max-width: 40vh;
+  }
+  #about-second-cover {
+    max-width: 40vh;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .about {
+    flex-wrap: wrap;
+  }
+  #about-img {
+    max-width: 100%;
+  }
+  #about-first-cover {
+    max-width: 30vh;
+  }
+  #about-second-cover {
+    max-width: 30vh;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 992px) {
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (max-width: 1290px) {
+  .wrapper-about {
+    flex-wrap: wrap;
+  }
+  .wrapper-50 {
+    width: 100%;
+  }
+  .aboutDetails {
+    margin-bottom: 10rem;
+  }
+}
+
+@media screen and (min-width: 1290px) {
+}

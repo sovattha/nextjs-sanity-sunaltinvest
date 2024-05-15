@@ -1,0 +1,44 @@
+.blog {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.grid-blog-title {
+  color: var(--primaryColor);
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+label {
+  font-size: 14px;
+}
+
+label {
+  color: var(--primaryColor);
+  margin: 10px 0;
+  display: inline-block;
+}
+.blog img {
+  width: 100%;
+}
+.blog .box {
+  background-color: var(--primaryBackground);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.blog .text {
+  padding: 2rem;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.box .img {
+  display: contents;
+}
+
+.buttons button {
+  width: 100%;
+}

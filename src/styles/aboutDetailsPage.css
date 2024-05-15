@@ -1,0 +1,251 @@
+#fondateurs {
+  height: auto;
+}
+.wrapper-fondateurs {
+  display: grid;
+  grid-template-columns: 2.1fr 1fr;
+  align-items: center;
+}
+
+.boxValues {
+  color: var(--white);
+  margin-top: 4rem;
+}
+.boxValues ul li {
+  border: 1px solid;
+  padding: 0.8rem;
+  border: 1px solid;
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0.2rem 0.8rem #e6dcca80;
+}
+.boxValues ul li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 6px #0000001a;
+}
+
+@media (max-width: 768px) {
+  .boxValues ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .right-side {
+    display: none;
+  }
+}
+
+.bgImg {
+  position: relative;
+}
+.bgImg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('/images/testimonials-bg.png');
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+.w-100vh {
+  width: 100vw;
+}
+.right {
+  width: 90% !important;
+}
+
+.wrapper-objectifs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.aboutDetails {
+  height: auto;
+  margin-top: 7rem;
+  display: block;
+  margin-bottom: 5rem;
+}
+
+.aboutDetails h2 {
+  font-size: 30px;
+  color: var(--primaryColor);
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
+}
+.aboutDetailsImg {
+  width: 35vh;
+  height: 25vh;
+  border-radius: 25px;
+}
+.aboutDetailsImgSpan {
+  color: var(--beige-color);
+  border-left: 2px solid var(--cyan-color);
+  padding-left: 20px;
+}
+
+.objectifs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  gap: 3rem;
+  padding: 2rem;
+}
+.objectifs::after {
+  /* background-image: url("/images/images/testimonials-bg.png"); */
+  background-image: url('/images/images/about/banner.png');
+}
+
+.wrapper-objectifs-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.right-side {
+  flex-shrink: 0; /* Prevent the image from shrinking */
+  margin-left: 20px; /* Add margin between text and image */
+}
+
+.img-fluid {
+  border-radius: 25px;
+}
+
+.img-about-details {
+  width: 250px;
+  height: 180px;
+}
+
+.aboutValues {
+  height: 100vh;
+}
+
+@media screen and (min-width: 320px) and (max-width: 992px) {
+  .img-about-details {
+    width: 30vh;
+    height: 28vh;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .aboutValues {
+    height: auto;
+    padding: 0;
+    width: 100vw;
+    display: block;
+  }
+
+  .aboutDetails {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .wrapper-fondateurs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .w-100vh {
+    width: auto;
+  }
+  .grid-blog {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .aboutDetailsImg {
+    width: 15vh;
+    height: 15vh;
+  }
+  .objectifs {
+    height: auto;
+  }
+  .objectifs::after {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .objectifs {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .objectifs {
+    padding: 0;
+  }
+  .w-100vh {
+    width: 50vh;
+  }
+  .box {
+    display: block;
+    width: 45vh;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .objectifs {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 1024px) {
+  .left-side {
+    flex: auto;
+  }
+  .objectifs {
+    flex-direction: row;
+  }
+  .wrapper-fondateurs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .w-100vh {
+    width: auto;
+  }
+  .grid-blog {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .aboutDetailsImg {
+    width: 15vh;
+    height: 15vh;
+  }
+  .objectifs {
+    height: auto;
+  }
+  .objectifs::after {
+    height: 100vh;
+  }
+  .objectifs .box {
+    max-width: 100%;
+  }
+  .wrapper-objectifs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .aboutValues {
+    height: auto;
+  }
+}

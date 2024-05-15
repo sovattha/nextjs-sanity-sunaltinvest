@@ -1,0 +1,1 @@
+https://www.qrcodegen.fr/generateur-qr-code-vcard.html

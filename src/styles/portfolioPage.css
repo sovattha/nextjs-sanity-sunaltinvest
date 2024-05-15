@@ -1,0 +1,56 @@
+.wrapper-partners {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.wrapper-partners > img {
+  width: 20vh;
+  padding: 0.4rem 1.1rem;
+}
+#partners {
+  margin-bottom: 2rem;
+}
+
+#installations {
+  margin-top: 3rem;
+}
+
+.partners-card {
+  border: 1px solid rgba(5, 52, 92, 0.5);
+  padding: 0.8rem;
+  border-radius: 10px;
+  margin: 0 10px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0.2rem 0.8rem #e6dcca80;
+  cursor: initial;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 75vh;
+}
+
+.partners-card:hover {
+  transform: scale(1.02);
+}
+
+.wrapper-img {
+  height: auto;
+  max-width: 100%;
+}
+
+.partners-desc {
+  margin: 0.8rem;
+}
+
+.img-partners {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #partners {
+    margin-top: 4rem;
+  }
+}
