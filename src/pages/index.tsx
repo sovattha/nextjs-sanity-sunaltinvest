@@ -1,5 +1,6 @@
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { useLiveQuery } from 'next-sanity/preview'
+import Card from '~/components/Card'
 
 import Home from '~/components/common/Home'
 import RootContainer from '~/components/common/RootContainer'
@@ -30,16 +31,15 @@ export default function IndexPage(
 ) {
   const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
   return (
-    // <Container>
-    //   <section>
-    //     {posts.length ? (
-    //       posts.map((post) => <Card key={post._id} post={post} />)
-    //     ) : (
-    //       <Welcome />
-    //     )}
-    //   </section>
-    // </Container>
     <RootContainer>
+      <section>
+        {posts.length ? (
+          posts.map((post) => <Card key={post._id} post={post} />)
+        ) : (
+          <h1>Hello</h1>
+        )}
+      </section>
+
       <Home />
     </RootContainer>
   )
