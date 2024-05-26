@@ -1,11 +1,11 @@
-import { About } from '../About'
-import { Hero } from '../Hero'
+import { Hero } from '~/components/Hero'
+import { HomeAbout } from '~/components/HomeAbout'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <About />
+      <HomeAbout />
       <hr className="hero-line"></hr>
       {/* <Advantages />
       <Services />

@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 
@@ -49,9 +50,9 @@ export const Hero = () => {
             </button>
 
             <button className="button-secondary" data-aos="fade-up-right">
-              <a href="/about" className="black">
+              <Link href="/about" className="black">
                 En savoir plus
-              </a>
+              </Link>
             </button>
           </div>
         </div>

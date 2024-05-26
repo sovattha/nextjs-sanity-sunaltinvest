@@ -1,6 +1,7 @@
 import '~/styles/global.css'
 import '~/styles/aboutComponent.css'
 import '~/styles/aboutDetailsPage.css'
+import '~/styles/blogComponent.css'
 import '~/styles/blogDetailsPage.css'
 import '~/styles/counterComponent.css'
 import '~/styles/Header.css'

@@ -115,34 +115,34 @@ import {
   export const services = [
     {
       id: 1,
-      title: '1. Étude personnalisée',
-      desc: 'Nous analysons vos besoins spécifiques pour une solution sur mesure.',
-      cover: '../../../images/services/1.png',
-      category: 'LOA',
+      title: "1. Étude personnalisée",
+      desc: "Nous analysons vos besoins spécifiques pour une solution sur mesure.",
+      cover: "/images/services/1.png",
+      category: "LOA",
       linkContent: <a href="/services/location">En savoir plus</a>,
     },
     {
       id: 2,
-      title: '2. Financement sur mesure',
-      desc: 'Nous proposons des options de financement adaptées à votre entreprise.',
-      cover: '../../../images/services/2.png',
-      category: 'LOT',
+      title: "2. Financement sur mesure",
+      desc: "Nous proposons des options de financement adaptées à votre entreprise.",
+      cover: "/images/services/2.png",
+      category: "LOT",
       linkContent: <a href="/services/location-toiture">En savoir plus</a>,
     },
     {
       id: 3,
-      title: '3. Installation professionnelle',
-      desc: 'Nos partenaires experts assurent une mise en œuvre efficace et professionnelle.',
-      cover: '../../../images/services/3.png',
-      category: 'LOT',
+      title: "3. Installation professionnelle",
+      desc: "Nos partenaires experts assurent une mise en œuvre efficace et professionnelle.",
+      cover: "/images/services/3.png",
+      category: "LOT",
       linkContent: <a href="/services/location-toiture">En savoir plus</a>,
     },
     {
       id: 4,
-      title: '4. Maintenance à long terme',
-      desc: 'Nous assurons la maintenance continue pour des performances optimales.',
-      cover: '../../../images/services/4.png',
-      category: 'LOT',
+      title: "4. Maintenance à long terme",
+      desc: "Nous assurons la maintenance continue pour des performances optimales.",
+      cover: "/images/services/4.png",
+      category: "LOT",
       linkContent: <a href="/services/location-toiture">En savoir plus</a>,
     },
   ]
@@ -420,9 +420,9 @@ import {
   export const aboutsFondateurs = [
     {
       title: 'Les fondateurs',
-      cover: '../images/about/Alexandre.png',
+      cover: '/images/about/Alexandre.png',
       title_cover: '',
-      second_cover: '../images/about/Fanny.png',
+      second_cover: '/images/about/Fanny.png',
       title_second_cover: '',
       content: (
         <div>
@@ -454,7 +454,7 @@ import {
   export const aboutsObjectifs = [
     {
       title: 'Notre vision',
-      cover: '../images/about/3.png',
+      cover: '/images/about/3.png',
       content: (
         <p>
           L'énergie solaire, ressource inépuisable, est notre réponse au
@@ -466,7 +466,7 @@ import {
     },
     {
       title: 'Notre mission',
-      cover: '../images/about/4.png',
+      cover: '/images/about/4.png',
       content: (
         <p>
           <li>
@@ -569,63 +569,63 @@ import {
     {
       id: 1,
       type: 'image',
-      cover: '../images/portfolio/1.svg',
+      cover: '/images/portfolio/1.svg',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 2,
       type: 'video',
-      cover: '../images/portfolio/1.mp4',
+      cover: '/images/portfolio/1.mp4',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 3,
       type: 'image',
-      cover: '../images/portfolio/3.svg',
+      cover: '/images/portfolio/3.svg',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 4,
       type: 'image',
-      cover: '../images/portfolio/4.svg',
+      cover: '/images/portfolio/4.svg',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 5,
       type: 'image',
-      cover: '../images/portfolio/5.svg',
+      cover: '/images/portfolio/5.svg',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 6,
       type: 'image',
-      cover: '../images/portfolio/6.svg',
+      cover: '/images/portfolio/6.svg',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 7,
       type: 'image',
-      cover: '../images/portfolio/7.svg',
+      cover: '/images/portfolio/7.svg',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 8,
       type: 'image',
-      cover: '../images/portfolio/8.svg',
+      cover: '/images/portfolio/8.svg',
       name: 'Brand',
       title: 'Logo',
     },
     {
       id: 9,
       type: 'image',
-      cover: '../images/portfolio/9.svg',
+      cover: '/images/portfolio/9.svg',
       name: 'Brand',
       title: 'Logo',
     },

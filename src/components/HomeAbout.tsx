@@ -4,16 +4,14 @@ import React from 'react'
 import { Heading } from '~/components/common/Heading'
 import { about } from '~/data'
 
-export const About = () => {
+export const HomeAbout = () => {
   return (
     <section className="about container">
       <Heading title="Notre entreprise" />
 
       <div className="about-container-grid">
         <div className="wrapper-content-image">
-          <div>
-            <div>{about[0].content}</div>
-          </div>
+          <div>{about[0].content}</div>
           <div className="grid-img-fondateurs">
             <Image
               src={about[1].cover}

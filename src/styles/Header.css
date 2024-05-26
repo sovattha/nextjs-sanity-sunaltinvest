@@ -6,7 +6,7 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    padding: 0 1rem;
+    padding: 1rem 0;
     width: 100%;
     z-index: 999;
   }
@@ -23,7 +23,7 @@
     margin: 0 25px;
   }
   .logo {
-    margin-left: 4rem;
+    margin-left: 1rem;
   }
   .toggle {
     cursor: pointer;
