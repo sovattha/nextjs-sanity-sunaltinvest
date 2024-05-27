@@ -1,3 +1,6 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 import '~/styles/global.css'
 import '~/styles/aboutComponent.css'
 import '~/styles/aboutDetailsPage.css'
@@ -9,13 +12,15 @@ import '~/styles/headerComponent.css'
 import '~/styles/heroComponent.css'
 import '~/styles/legalSectionComponent.css'
 import '~/styles/mentionsLegales.css'
-import '~/styles/portfolioPage.css'
+import '~/styles/partenairesPage.css'
 import '~/styles/serviceComponent.css'
 import '~/styles/servicePage.css'
 import '~/styles/testimonialsComponent.css'
 
 import type { AppProps } from 'next/app'
 import { lazy } from 'react'
+import { useEffect } from 'react'
+import RootContainer from '~/components/common/RootContainer'
 
 export interface SharedPageProps {
   draftMode: boolean
@@ -28,15 +33,24 @@ export default function App({
   Component,
   pageProps,
 }: AppProps<SharedPageProps>) {
+  useEffect(() => {
+    AOS.init()
+    AOS.refresh()
+  }, [])
+
   const { draftMode, token } = pageProps
   return (
     <>
       {draftMode ? (
         <PreviewProvider token={token}>
-          <Component {...pageProps} />
+          <RootContainer>
+            <Component {...pageProps} />
+          </RootContainer>
         </PreviewProvider>
       ) : (
-        <Component {...pageProps} />
+        <RootContainer>
+          <Component {...pageProps} />
+        </RootContainer>
       )}
     </>
   )

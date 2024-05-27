@@ -25,13 +25,13 @@ import {
   } from '@mui/icons-material'
   import { Link } from 'next/link'
   
-  import { Heading } from '../components/common/Heading'
+  import { Heading } from '~/components/common/Heading'
   
   export const navlink = [
     { url: '/', text: 'Accueil' },
     { url: '/about', text: 'À propos' },
     { url: '/services', text: 'Services' },
-    { url: '/portfolio', text: 'Nos Partenaires' },
+    { url: '/partenaires', text: 'Nos Partenaires' },
     { url: '/blogs', text: 'Blogs' },
     { url: '/contact', text: 'Contact' },
   ]
