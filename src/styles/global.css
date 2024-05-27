@@ -161,6 +161,14 @@ img, video {
   }
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 
 article {
   margin-top: 50px;

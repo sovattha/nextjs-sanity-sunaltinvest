@@ -27,7 +27,7 @@ const Fondateurs = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '15vh', height: '15vh' }}
+                style={{ width: '30vh', height: '25vh' }}
               />
               <span className="aboutDetailsImgSpan">{val.title_cover}</span>
             </div>
@@ -41,7 +41,7 @@ const Fondateurs = () => {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: '15vh', height: '15vh' }}
+                style={{ width: '30vh', height: '25vh' }}
               />
               <span className="aboutDetailsImgSpan">
                 {val.title_second_cover}

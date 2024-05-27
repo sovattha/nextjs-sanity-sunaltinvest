@@ -21,6 +21,7 @@
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   box-shadow: 0 0.2rem 0.8rem #e6dcca80;
+  list-style: none;
 }
 .boxValues ul li:hover {
   transform: scale(1.02);
