@@ -22,7 +22,7 @@ export const HomeAbout = () => {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '150px', height: 'auto' }}
+              style={{ width: 'auto', height: 'auto' }}
             />
           </div>
         </div>

@@ -9,6 +9,7 @@
     padding: 1rem 0;
     width: 100%;
     z-index: 999;
+    margin-top: 1.5rem;
   }
   header .nav {
     background: rgba(5, 52, 92, 0.5);
