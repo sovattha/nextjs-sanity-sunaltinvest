@@ -34,3 +34,11 @@ export interface Post {
   mainImage?: ImageAsset
   body: PortableTextBlock[]
 }
+
+export const partnersQuery = `*[_type == "partner"]{
+  _id,
+  title,
+  "imageUrl": image.asset->url,
+  altText,
+  description
+}`

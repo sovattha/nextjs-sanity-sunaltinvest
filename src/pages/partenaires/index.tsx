@@ -1,9 +1,29 @@
-import React from 'react'
+import { GetStaticProps } from 'next'
+import { draftMode } from 'next/headers'
+import { useLiveQuery } from 'next-sanity/preview'
+
 import { Heading } from '~/components/common/Heading'
 import { partners } from '~/data/index'
+import { readToken } from '~/lib/sanity.api'
+import { getClient } from '~/lib/sanity.client'
+import { partnersQuery } from '~/lib/sanity.queries'
+
+export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
+  const client = getClient(draftMode ? { token: readToken } : undefined)
+  const partners = await client.fetch(partnersQuery)
+
+  return {
+    props: {
+      draftMode,
+      token: draftMode ? readToken : '',
+      partners,
+      preview,
+    },
+  }
+}
 
 // Composant PortfolioItem pour représenter chaque partenaire
-const PortfolioItem = ({ imageSrc, altText, description }) => {
+const PartnerItem = ({ imageSrc, altText, description }) => {
   return (
     <div
       className="partners-card"
@@ -25,7 +45,7 @@ const PartnerList = ({ partners }) => {
   return (
     <div className="wrapper-partners">
       {partners.map((partner, index) => (
-        <PortfolioItem
+        <PartnerItem
           key={index}
           imageSrc={partner.imageSrc}
           altText={partner.altText}
@@ -36,20 +56,22 @@ const PartnerList = ({ partners }) => {
   )
 }
 
-const Portfolio = () => {
+const PartnersPage = () => {
+  const [livePartners] = useLiveQuery(partners, partnersQuery)
+
   return (
     <article>
       <div className="container" id="partners">
         <Heading title="Nos partenaires" />
         <p>
           Nous sommes ravis de vous présenter nos partenaires locaux et
-          l'écosystème que nous avons construit, unissant nos forces dans un
-          objectif commun : aider l'économie de nos régions.<br></br>
+          l&apos;écosystème que nous avons construit, unissant nos forces dans
+          un objectif commun : aider l&apos;économie de nos régions.<br></br>
         </p>
-        <PartnerList partners={partners} />
+        <PartnerList partners={livePartners} />
       </div>
     </article>
   )
 }
 
-export default Portfolio
+export default PartnersPage
