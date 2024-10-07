@@ -1,10 +1,13 @@
+import { PortableText } from '@portabletext/react'
 import { GetStaticProps, InferGetStaticPropsType } from 'next'
+import Image from 'next/image'
 import { useLiveQuery } from 'next-sanity/preview'
 
 import { Heading } from '~/components/common/Heading'
 // import { partners } from '~/data'
 import { readToken } from '~/lib/sanity.api'
 import { getClient } from '~/lib/sanity.client'
+import { urlForImage } from '~/lib/sanity.image'
 import { getPartners, Partner, partnersQuery } from '~/lib/sanity.queries'
 
 export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
@@ -47,29 +50,33 @@ const PartnersPage = (
 const PartnerList = ({ partners }) => {
   return (
     <div className="wrapper-partners">
-      {partners.map((partner, index) => {
-        return partner && <PartnerItem key={index} {...partner} />
+      {partners.map((x, index) => {
+        console.log('>>>> x', x)
+        return <PartnerItem key={index} {...x[0]} />
       })}
     </div>
   )
 }
 
 // Composant PortfolioItem pour représenter chaque partenaire
-const PartnerItem = ({ title, imageSrc, altText, description }) => {
+const PartnerItem = ({ title, imageUrl, altText, description }) => {
   return (
     <div
       className="partners-card"
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
     >
-      {/* <div className="wrapper-img">
-        <img src={imageSrc} alt={altText} className="img-partners" />
-      </div> */}
-      <div className="partners-desc">
-        <h4 dangerouslySetInnerHTML={{ __html: title }} />
+      <div className="wrapper-img">
+        <Image
+          className="img-partners"
+          src={`${imageUrl}`}
+          height={300}
+          width={500}
+          alt={altText}
+        />
       </div>
       <div className="partners-desc">
-        <p dangerouslySetInnerHTML={{ __html: description }} />
+        <PortableText value={description} />
       </div>
     </div>
   )

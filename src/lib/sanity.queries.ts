@@ -59,5 +59,5 @@ export interface Partner {
   title: string
   imageUrl: string
   altText: string
-  description: string
+  description: PortableTextBlock[]
 }
