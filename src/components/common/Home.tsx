@@ -1,8 +1,10 @@
 import { Hero } from '~/components/Hero'
 import { HomeAbout } from '~/components/HomeAbout'
-import { Advantages } from '../Advantages'
 import Services from '~/components/Services'
+import IndexPage from '~/pages'
 import Contact from '~/pages/contact'
+
+import { Advantages } from '../Advantages'
 
 export default function Home() {
   return (

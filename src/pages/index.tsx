@@ -1,7 +1,7 @@
 import type { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { useLiveQuery } from 'next-sanity/preview'
-import Card from '~/components/Card'
 
+import Card from '~/components/Card'
 import Home from '~/components/common/Home'
 import RootContainer from '~/components/common/RootContainer'
 import { readToken } from '~/lib/sanity.api'
@@ -29,17 +29,19 @@ export const getStaticProps: GetStaticProps<
 export default function IndexPage(
   props: InferGetStaticPropsType<typeof getStaticProps>,
 ) {
-  const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
-
-  {
-    /* <section>
-    {posts.length ? (
-      posts.map((post) => <Card key={post._id} post={post} />)
-    ) : (
-      <h1>Hello</h1>
-    )}
-  </section> */
-  }
+  // Exemple of how to get data from sanity
+  // const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
+  // {
+  //   return (
+  //       <section>
+  //         {posts.length ? (
+  //           posts.map((post) => <Card key={post._id} post={post} />)
+  //         ) : (
+  //           <h1>Hello</h1>
+  //         )}
+  //       </section>
+  //   )
+  // }
 
   return <Home />
 }

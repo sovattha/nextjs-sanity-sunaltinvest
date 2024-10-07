@@ -56,6 +56,7 @@ const PartnerList = ({ partners }) => {
 
 const PartnersPage = () => {
   const [livePartners] = useLiveQuery(partners, partnersQuery)
+  console.log('livePartners', livePartners)
 
   return (
     <article>
