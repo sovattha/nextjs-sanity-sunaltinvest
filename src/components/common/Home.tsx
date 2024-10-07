@@ -1,7 +1,6 @@
 import { Hero } from '~/components/Hero'
 import { HomeAbout } from '~/components/HomeAbout'
 import Services from '~/components/Services'
-import IndexPage from '~/pages'
 import Contact from '~/pages/contact'
 
 import { Advantages } from '../Advantages'

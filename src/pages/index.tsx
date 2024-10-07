@@ -30,7 +30,7 @@ export default function IndexPage(
   props: InferGetStaticPropsType<typeof getStaticProps>,
 ) {
   // Exemple of how to get data from sanity
-  // const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
+  const [posts] = useLiveQuery<Post[]>(props.posts, postsQuery)
   // {
   //   return (
   //       <section>
