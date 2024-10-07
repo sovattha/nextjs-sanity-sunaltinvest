@@ -1,5 +1,4 @@
 import { GetStaticProps } from 'next'
-import { draftMode } from 'next/headers'
 import { useLiveQuery } from 'next-sanity/preview'
 
 import { Heading } from '~/components/common/Heading'
@@ -9,13 +8,12 @@ import { getClient } from '~/lib/sanity.client'
 import { partnersQuery } from '~/lib/sanity.queries'
 
 export const getStaticProps: GetStaticProps = async ({ preview = false }) => {
-  const client = getClient(draftMode ? { token: readToken } : undefined)
+  const client = getClient(preview ? { token: readToken } : undefined)
   const partners = await client.fetch(partnersQuery)
 
   return {
     props: {
-      draftMode,
-      token: draftMode ? readToken : '',
+      token: preview ? readToken : '',
       partners,
       preview,
     },
