@@ -40,7 +40,7 @@ const PartnersPage = (
           l&apos;écosystème que nous avons construit, unissant nos forces dans
           un objectif commun : aider l&apos;économie de nos régions.<br></br>
         </p>
-        <PartnerList partners={livePartners.filter(Boolean)} />
+        <PartnerList partners={livePartners.filter(Boolean)?.at(0)} />
       </div>
     </article>
   )
@@ -50,9 +50,9 @@ const PartnersPage = (
 const PartnerList = ({ partners }) => {
   return (
     <div className="wrapper-partners">
-      {partners.map((x, index) => {
-        console.log('>>>> x', x)
-        return <PartnerItem key={index} {...x[0]} />
+      {partners.map((partner, index) => {
+        console.log('>>>> partner', partner)
+        return <PartnerItem key={index} {...partner} />
       })}
     </div>
   )
