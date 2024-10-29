@@ -54,7 +54,7 @@ import {
           <p>
             Bienvenue chez Sun Alternative Invest, votre partenaire dédié à la
             transition énergétique. Nous souhaitons jouer un rôle crucial dans le{' '}
-            <b>secteur de l'énergie solaire</b>, en aidant les entreprises à faire
+            <b>secteur de l&apos;énergie solaire</b>, en aidant les entreprises à faire
             la transition vers une énergie plus durable.
             <br></br>
             <br></br>
@@ -62,9 +62,9 @@ import {
             Responsabilité Sociétale des Entreprises (RSE) et à{' '}
             <b>l’indépendance énergétique</b> en offrant des{' '}
             <b>solutions clés-en-main</b>, de la consultation initiale à
-            l'installation et à l'entretien continu des installations
+            l&apos;installation et à l&apos;entretien continu des installations
             photovoltaïques. Cette approche globale garantit une transition fluide
-            vers l'énergie solaire pour nos clients.
+            vers l&apos;énergie solaire pour nos clients.
           </p>
           <p className="hero-line"></p>
         </div>
@@ -79,14 +79,14 @@ import {
             <li>
               <strong>Une autonomie Énergétique</strong> : Nous visons à rendre
               les entreprises autonomes sur le plan énergétique en exploitant
-              pleinement le potentiel de l'énergie solaire. Cela permettra aux
-              entreprises de réduire leur dépendance aux sources d'énergie
+              pleinement le potentiel de l&apos;énergie solaire. Cela permettra aux
+              entreprises de réduire leur dépendance aux sources d&apos;énergie
               traditionnelles et de réaliser des économies à long terme.
             </li>
             <br></br>
             <li>
-              <strong>Une Réduction de l'empreinte carbone</strong> : En
-              favorisant l'utilisation de l'énergie solaire, nous contribuons
+              <strong>Une Réduction de l&apos;empreinte carbone</strong> : En
+              favorisant l&apos;utilisation de l&apos;énergie solaire, nous contribuons
               activement à la réduction des émissions de gaz à effet de serre.
               Nous sommes déterminés à soutenir les entreprises dans leur démarche
               de réduction de leur empreinte carbone, renforçant ainsi leur
@@ -432,19 +432,19 @@ import {
             plus de 15 ans dans les secteurs de l’énergie, de la construction et
             de la finance. Nous sommes fiers de mettre notre savoir-faire au
             service des entreprises de la région pour accélérer la production
-            d'énergie propre.
+            d&apos;énergie propre.
             <br></br>
             <br></br>
-            Notre objectif est clair : Vous faire atteindre l'indépendance
+            Notre objectif est clair : Vous faire atteindre l&apos;indépendance
             énergétique tout en favorisant une économie respectueuse de
-            l'environnement. Nous agissons en tant que tiers investisseur dans le
+            l&apos;environnement. Nous agissons en tant que tiers investisseur dans le
             cadre d’installation de panneaux solaires photovoltaïques, afin de
             vous permettre de réaliser vos projets d’autoconsommation. En
-            investissant dans l'énergie solaire, nous créons un impact positif
-            tant sur l'environnement que sur nos clients. En favorisant
-            l'autoconsommation et l'indépendance énergétique, nous contribuons
+            investissant dans l&apos;énergie solaire, nous créons un impact positif
+            tant sur l&apos;environnement que sur nos clients. En favorisant
+            l&apos;autoconsommation et l&apos;indépendance énergétique, nous contribuons
             activement à la réduction des émissions de carbone et à la
-            construction d'un avenir énergétique durable.
+            construction d&apos;un avenir énergétique durable.
           </p>
         </div>
       ),
@@ -457,7 +457,7 @@ import {
       cover: '/images/about/3.png',
       content: (
         <p>
-          L'énergie solaire, ressource inépuisable, est notre réponse au
+          L&apos;énergie solaire, ressource inépuisable, est notre réponse au
           changement climatique et à la crise énergétique actuelle. En façonnant
           un monde où elle est au cœur de nos choix énergétiques, nous protégeons
           notre planète pour les générations futures.
@@ -471,14 +471,14 @@ import {
         <p>
           <li>
             Accompagner les entreprises de nos régions dans la réalisation de
-            leurs projets d'énergie renouvelable.
+            leurs projets d&apos;énergie renouvelable.
           </li>
           <li>
             Répondre aux enjeux de Responsabilité Sociétale des Entreprises (RSE)
-            et d'indépendance énergétique.
+            et d&apos;indépendance énergétique.
           </li>
           <li>
-            Contribuer à la durée de vie des projets d'énergie renouvelable.
+            Contribuer à la durée de vie des projets d&apos;énergie renouvelable.
           </li>
           <li>
             Rendre les énergies renouvelables accessibles grâce à des solutions
@@ -500,9 +500,9 @@ import {
                 <Menu className="icon" /> Durabilité
               </h3>
               <p>
-                Promouvoir le développement durable en encourageant l'utilisation
-                d'énergies renouvelables pour réduire l'empreinte carbone et
-                contribuer à la préservation de l'environnement.
+                Promouvoir le développement durable en encourageant l&apos;utilisation
+                d&apos;énergies renouvelables pour réduire l&apos;empreinte carbone et
+                contribuer à la préservation de l&apos;environnement.
               </p>
             </li>
   
@@ -523,7 +523,7 @@ import {
               </h3>
               <p>
                 Assumer la responsabilité sociale en contribuant positivement aux
-                communautés locales, en favorisant la création d'emplois locaux et
+                communautés locales, en favorisant la création d&apos;emplois locaux et
                 en soutenant des initiatives sociales et environnementales.
               </p>
             </li>
@@ -544,7 +544,7 @@ import {
                 <Menu className="icon" /> Partage
               </h3>
               <p>
-                Encourager la collaboration, la coopération et l'esprit d'équipe
+                Encourager la collaboration, la coopération et l&apos;esprit d&apos;équipe
                 avec les partenaires et les clients, pour atteindre des objectifs
                 communs et aller plus loin dans la transition énergétique.
               </p>
@@ -668,12 +668,12 @@ import {
           <article data-aos="zoom-in">
             <h2>Définition</h2>
             <p>
-              L'autoconsommation individuelle (ACI) est définie par l'article
-              315-1 du Code de l'énergie, issu de la loi sur l'autoconsommation
-              2017-227 ratifiant l'ordonnance 2016-1019. La définition est la
-              suivante : « Une opération d'autoconsommation individuelle est le
+              L&apos;autoconsommation individuelle (ACI) est définie par l&apos;article
+              315-1 du Code de l&apos;énergie, issu de la loi sur l&apos;autoconsommation
+              2017-227 ratifiant l&apos;ordonnance 2016-1019. La définition est la
+              suivante : « Une opération d&apos;autoconsommation individuelle est le
               fait pour un producteur, dit autoproducteur, de consommer lui-même
-              et sur un même site tout ou partie de l'électricité produite par son
+              et sur un même site tout ou partie de l&apos;électricité produite par son
               installation ».{' '}
               <u>
                 L’autoconsommation individuelle, c’est tout simplement le fait de
@@ -682,7 +682,7 @@ import {
               </u>
               <br></br>
               Dans un schéma d’autoconsommation, l’installation photovoltaïque est
-              donc raccordée directement sur l'installation électrique intérieure.
+              donc raccordée directement sur l&apos;installation électrique intérieure.
               Il peut y avoir :
             </p>
             <ul>
@@ -713,28 +713,28 @@ import {
                 problèmes dans le réseau.
               </li>
               <li>
-                Stabilité des coûts : Les coûts associés à la production d'énergie
+                Stabilité des coûts : Les coûts associés à la production d&apos;énergie
                 à partir de sources renouvelables peuvent être plus stables et
-                prévisibles que ceux liés aux sources d'énergie traditionnelles,
+                prévisibles que ceux liés aux sources d&apos;énergie traditionnelles,
                 qui peuvent fluctuer en fonction des prix des combustibles
                 fossiles.
               </li>
               <li>
                 Subventions : Il existe des incitations financières, des crédits
-                d'impôt et des subventions pour encourager l'installation de
-                systèmes d'autoconsommation d'énergie renouvelable.
+                d&apos;impôt et des subventions pour encourager l&apos;installation de
+                systèmes d&apos;autoconsommation d&apos;énergie renouvelable.
               </li>
               <li>
-                Production d’énergie verte : En utilisant des sources d'énergie
+                Production d’énergie verte : En utilisant des sources d&apos;énergie
                 renouvelables comme le soleil, vous consommez une énergie
                 renouvelable, produite localement et contribuez à réduire les
                 émissions de gaz à effet de serre, ce qui est bénéfique pour
-                l'environnement.
+                l&apos;environnement.
               </li>
               <li>
                 Sécurité énergétique : En produisant votre propre énergie, vous
                 pouvez être mieux préparé aux perturbations éventuelles dans
-                l'approvisionnement énergétique, offrant ainsi une certaine
+                l&apos;approvisionnement énergétique, offrant ainsi une certaine
                 sécurité énergétique.
               </li>
             </ul>
@@ -761,31 +761,31 @@ import {
           <section data-aos="fade-up">
             <h2>Une démarche durable</h2>
             <p>
-              L'autoconsommation individuelle est une démarche qui s'inscrit dans
+              L&apos;autoconsommation individuelle est une démarche qui s&apos;inscrit dans
               une{' '}
               <u>
-                perspective de durabilité environnementale et d'indépendance
+                perspective de durabilité environnementale et d&apos;indépendance
                 énergétique.
               </u>{' '}
               Elle permet de participer activement à la transition vers des
-              sources d'énergie plus propres et renouvelables.
+              sources d&apos;énergie plus propres et renouvelables.
             </p>
           </section>
   
           <section data-aos="fade-up">
-            <h2>L'autoconsommation individuelle en tiers-investissement</h2>
+            <h2>L&apos;autoconsommation individuelle en tiers-investissement</h2>
             <p>
               Un tiers-investisseur peut intervenir dans des opérations
-              d'autoconsommation individuelle pour des projets de centrale
-              photovoltaïque, pour des puissances d'au moins 9 kWc (bâtiments
-              tertiaires, entreprises, stations d'épuration, supermarchés, etc.)
+              d&apos;autoconsommation individuelle pour des projets de centrale
+              photovoltaïque, pour des puissances d&apos;au moins 9 kWc (bâtiments
+              tertiaires, entreprises, stations d&apos;épuration, supermarchés, etc.)
               Le recours au tiers-investissement pour une opération
-              d'autoconsommation individuelle est autorisé par l'article L315-1 du
-              Code de l'Energie : « L'installation de l'autoproducteur peut être
+              d&apos;autoconsommation individuelle est autorisé par l&apos;article L315-1 du
+              Code de l&apos;Energie : « L&apos;installation de l&apos;autoproducteur peut être
               détenue ou gérée par un tiers. Le tiers peut se voir confier
-              l'installation et la gestion, notamment l'entretien, de
-              l'installation de production, pour autant qu'il demeure soumis aux
-              instructions de l'autoproducteur».
+              l&apos;installation et la gestion, notamment l&apos;entretien, de
+              l&apos;installation de production, pour autant qu&apos;il demeure soumis aux
+              instructions de l&apos;autoproducteur».
             </p>
           </section>
   
@@ -794,7 +794,7 @@ import {
             <p>
               Choisir l’autoconsommation individuelle représente une transition
               vers un mode de consommation plus durable et offre la possibilité de
-              contribuer activement à la protection de l'environnement tout en
+              contribuer activement à la protection de l&apos;environnement tout en
               assurant une plus grande autonomie énergétique.
             </p>
           </section>
@@ -814,29 +814,29 @@ import {
             <h2>Ce qu’il faut savoir !</h2>
             <p>
               Les événements survenus en 2023 ont influencé les marchés de
-              l'électricité et ont causé une hausse historique du prix de
-              l’électricité.
+              l&apos;électricité et ont causé une hausse historique du prix de
+              l&apos;électricité.
             </p>
             <ul data-aos="fade-up">
               <li>
                 Conflits politiques en Europe : Les tensions géopolitiques ont eu
-                des répercussions sur les marchés de l'énergie en perturbant les
-                flux d'approvisionnement, en augmentant l'incertitude économique
+                des répercussions sur les marchés de l&apos;énergie en perturbant les
+                flux d&apos;approvisionnement, en augmentant l&apos;incertitude économique
                 et en entraînant des fluctuations des prix des matières premières.
               </li>
               <li>
                 Incertitudes autour du COVID-19 : La pandémie de COVID-19 a eu des
-                impacts significatifs sur l'économie mondiale, entraînant des
-                perturbations dans divers secteurs, y compris l'énergie.
+                impacts significatifs sur l&apos;économie mondiale, entraînant des
+                perturbations dans divers secteurs, y compris l&apos;énergie.
               </li>
             </ul>
           </section>
   
           <section data-aos="fade-up">
-            <h2>Difficultés de production d'énergie par EDF!</h2>
+            <h2>Difficultés de production d&apos;énergie par EDF!</h2>
             <p>
-              Des problèmes de production d'énergie ont entraîné des tensions sur
-              l'approvisionnement et contribué à la hausse des prix.
+              Des problèmes de production d&apos;énergie ont entraîné des tensions sur
+              l&apos;approvisionnement et contribué à la hausse des prix.
             </p>
           </section>
   
@@ -844,7 +844,7 @@ import {
             <div>
               <h2>Augmentation du prix de l’électricité début 2024 à venir ?</h2>
               <p>
-                Le 24 novembre 2023, une nouvelle annonce du PDG d'EDF, Luc
+                Le 24 novembre 2023, une nouvelle annonce du PDG d&apos;EDF, Luc
                 Rémont, révèle une augmentation de 10% au 1er février 2024 (TRV).
               </p>
             </div>
@@ -889,34 +889,34 @@ import {
             <h3>LES ENJEUX DE LA TRANSITION ÉNERGÉTIQUE</h3>
             <p>
               Les enjeux de la transition énergétique sont nombreux et revêtent
-              une importance cruciale à l'échelle mondiale. Voici quelques-uns des
+              une importance cruciale à l&apos;échelle mondiale. Voici quelques-uns des
               principaux enjeux associés à ce processus :
             </p>
             <ul>
               <li>
-                <b>Réduction des émissions de gaz à effet de serre</b>: L'un des
+                <b>Réduction des émissions de gaz à effet de serre</b>: L&apos;un des
                 enjeux majeurs de la transition énergétique est de lutter contre
                 le changement climatique en réduisant les émissions de gaz à effet
-                de serre. Cela implique une transition vers des sources d'énergie
+                de serre. Cela implique une transition vers des sources d&apos;énergie
                 renouvelable, moins émettrices de CO2.
               </li>
               <li>
                 <b>Dépendance aux énergies fossiles</b>: La dépendance aux
                 énergies fossiles (pétrole, charbon, gaz) pose des risques en
-                termes de sécurité énergétique, de volatilité des prix et d'impact
+                termes de sécurité énergétique, de volatilité des prix et d&apos;impact
                 environnemental. La transition énergétique vise à réduire cette
-                dépendance en faveur de sources d'énergie plus durables.
+                dépendance en faveur de sources d&apos;énergie plus durables.
               </li>
               <li>
                 <b>Épuisement des ressources naturelles</b>: Les ressources
-                naturelles utilisées dans la production d'énergie non renouvelable
+                naturelles utilisées dans la production d&apos;énergie non renouvelable
                 sont limitées. La transition énergétique vise à promouvoir
-                l'utilisation de ressources renouvelables, telles que le soleil,
-                le vent et l'eau, qui sont plus durables à long terme.
+                l&apos;utilisation de ressources renouvelables, telles que le soleil,
+                le vent et l&apos;eau, qui sont plus durables à long terme.
               </li>
               <li>
-                <b>Sécurité énergétique</b>: Diversifier les sources d'énergie et
-                promouvoir l'autonomie énergétique peuvent renforcer la sécurité
+                <b>Sécurité énergétique</b>: Diversifier les sources d&apos;énergie et
+                promouvoir l&apos;autonomie énergétique peuvent renforcer la sécurité
                 énergétique en réduisant la dépendance à une seule source ou à des
                 sources vulnérables.
               </li>
@@ -928,7 +928,7 @@ import {
             <p>
               En France, la réglementation autour de la transition énergétique est
               encadrée par plusieurs lois et dispositifs visant à promouvoir des
-              pratiques plus durables et à réduire l'impact environnemental du
+              pratiques plus durables et à réduire l&apos;impact environnemental du
               système énergétique.
             </p>
             <p>
@@ -943,23 +943,23 @@ import {
                 : Adoptée en 2015, cette loi établit les grandes orientations de
                 la politique énergétique française. Elle fixe des objectifs
                 ambitieux, tels que la réduction de la part du nucléaire dans la
-                production d'électricité, le développement des énergies
-                renouvelables, l'amélioration de l'efficacité énergétique, et la
+                production d&apos;électricité, le développement des énergies
+                renouvelables, l&apos;amélioration de l&apos;efficacité énergétique, et la
                 lutte contre la précarité énergétique.
               </li>
               <li>
                 <b>Plan Climat</b>: Intégré à la LTECV, le Plan Climat fixe des
                 objectifs spécifiques en matière de réduction des émissions de gaz
-                à effet de serre, d'adaptation aux changements climatiques et de
+                à effet de serre, d&apos;adaptation aux changements climatiques et de
                 promotion des énergies renouvelables.
               </li>
               <li>
-                <b>Programmation Pluriannuelle de l'Énergie (PPE)</b>: Élaborée
+                <b>Programmation Pluriannuelle de l&apos;Énergie (PPE)</b>: Élaborée
                 conformément à la LTECV, la PPE définit la trajectoire de la
                 politique énergétique sur plusieurs années. Elle précise les
                 moyens et les actions pour atteindre les objectifs fixés,
-                notamment en matière de production d'électricité, d'énergies
-                renouvelables et d'efficacité énergétique.
+                notamment en matière de production d&apos;électricité, d&apos;énergies
+                renouvelables et d&apos;efficacité énergétique.
               </li>
               <li>
                 <b>Réglementation thermique des bâtiments (RT2012)</b>: Cette
@@ -970,8 +970,8 @@ import {
               </li>
               <li>
                 <b>Loi Climat et Résilience</b>: Elle vise à traduire les
-                engagements de la France dans le cadre de l'Accord de Paris sur le
-                climat en actions concrètes. Elle s'inscrit dans une démarche
+                engagements de la France dans le cadre de l&apos;Accord de Paris sur le
+                climat en actions concrètes. Elle s&apos;inscrit dans une démarche
                 visant à renforcer la résilience de la société française face aux
                 impacts du changement climatique tout en réduisant son empreinte
                 carbone.
@@ -979,7 +979,7 @@ import {
               <li>
                 <b>Le décret tertiaire</b>: Il encourage les acteurs du secteur
                 tertiaire à adopter des pratiques plus durables et à contribuer
-                aux objectifs nationaux en matière d'efficacité énergétique.
+                aux objectifs nationaux en matière d&apos;efficacité énergétique.
               </li>
             </ul>
           </section>
@@ -988,11 +988,11 @@ import {
             <h2>En conclusion</h2>
             <ul>
               <li>
-                Ces différentes mesures illustrent l'engagement de la France en
+                Ces différentes mesures illustrent l&apos;engagement de la France en
                 faveur de la transition énergétique, visant à concilier
-                développement économique, préservation de l'environnement, et
+                développement économique, préservation de l&apos;environnement, et
                 lutte contre le changement climatique. Il est important de noter
-                que la réglementation évolue régulièrement pour s'adapter aux
+                que la réglementation évolue régulièrement pour s&apos;adapter aux
                 enjeux environnementaux et énergétiques.
               </li>
   
@@ -1006,7 +1006,7 @@ import {
   
               <li>
                 Le solaire est l’un des grand gagnant de la transition
-                énergétique. L'énergie solaire est une source d'énergie
+                énergétique. L&apos;énergie solaire est une source d&apos;énergie
                 renouvelable inépuisable et abondante. Il joue un rôle clé dans la
                 transition vers un système énergétique plus durable, propre et
                 résilient, et son adoption croissante contribue significativement
@@ -1014,9 +1014,9 @@ import {
               </li>
   
               <li>
-                Que pensez-vous de l'adoption de l'énergie solaire dans votre
+                Que pensez-vous de l&apos;adoption de l&apos;énergie solaire dans votre
                 entreprise ? Êtes-vous prêt à envisager cette solution pour
-                contribuer à la transition énergétique ? N'hésitez pas à nous
+                contribuer à la transition énergétique ? N&apos;hésitez pas à nous
                 contacter pour échanger sur vos futurs projets.
               </li>
             </ul>

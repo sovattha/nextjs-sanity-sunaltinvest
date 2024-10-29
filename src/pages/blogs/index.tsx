@@ -10,9 +10,9 @@ const Blogs = () => {
         <Heading title="Blog" />
         <p className="sub-heading">
           Un regard approfondi sur Autoconsommation, les Tendances du Prix de
-          l'Électricité en 2024, et Défis de la Transition. <br></br>
-          Découvrez l'avenir de l'énergie à travers des conseils pratiques ou
-          l'information rencontre l'inspiration.
+          l&apos;Électricité en 2024, et Défis de la Transition. <br></br>
+          Découvrez l&apos;avenir de l&apos;énergie à travers des conseils pratiques ou
+          l&apos;information rencontre l&apos;inspiration.
         </p>
 
         <div className="content grid3 grid-blog">
@@ -34,7 +34,7 @@ const Blogs = () => {
                     rel="preload"
                     passHref
                   >
-                    <button className="button-primary">Lire l'article</button>
+                    <button className="button-primary">Lire l&apos;article</button>
                   </Link>
                 </div>
               </div>

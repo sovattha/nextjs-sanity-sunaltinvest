@@ -29,7 +29,6 @@ export const Hero = () => {
                 loop: true,
                 delay: 80,
                 deleteSpeed: 70,
-                pauseFor: 4500,
               }}
             />
           </h1>

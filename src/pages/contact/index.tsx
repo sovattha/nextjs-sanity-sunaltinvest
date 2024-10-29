@@ -65,8 +65,8 @@ const Contact = () => {
         <Heading title="Contactez-nous" />
         <p>
           Nous sommes là pour vous aider à réaliser votre projet de transition
-          énergétique. Vous souhaitez obtenir plus d'informations, discuter de
-          vos besoins spécifiques ou planifier une consultation, n'hésitez pas à
+          énergétique. Vous souhaitez obtenir plus d&apos;informations, discuter de
+          vos besoins spécifiques ou planifier une consultation, n&apos;hésitez pas à
           nous contacter. Ensemble, nous pouvons créer un avenir plus durable.
         </p>
 

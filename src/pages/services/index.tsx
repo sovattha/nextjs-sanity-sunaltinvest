@@ -64,7 +64,7 @@ export const ServicesPage = () => {
       <p className="sub-heading"></p>
       <p>
         Nous proposons des solutions clés-en-main pour accompagner les
-        entreprises dans la réalisation de leurs projets d'énergie renouvelable.
+        entreprises dans la réalisation de leurs projets d&apos;énergie renouvelable.
         Découvrez comment nous pouvons vous aider à réduire vos coûts
         énergétiques tout en adoptant une approche durable.
       </p>
