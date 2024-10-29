@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { aboutAdvantages } from '../data/index'
 
 export const Advantages = () => {

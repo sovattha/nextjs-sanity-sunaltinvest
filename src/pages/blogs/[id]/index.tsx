@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import 'aos/dist/aos.css'
+
+import AOS from 'aos'
 import { useRouter } from 'next/router'
+import React, { useEffect, useState } from 'react'
+
 import { Heading } from '~/components/common/Heading'
 import { blogs } from '~/data/index'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 interface BlogDetails {
   id: number

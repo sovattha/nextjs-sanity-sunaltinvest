@@ -1,7 +1,9 @@
 import CheckCircleIcon from '@mui/icons-material/CheckCircle'
 import { Tooltip as MUITooltip } from '@mui/material'
 import React from 'react'
+
 import { Heading } from '~/components/common/Heading'
+
 import { serviceDetails } from '../../data/index'
 
 const renderBullets = (bullets, showIconCheck) => (

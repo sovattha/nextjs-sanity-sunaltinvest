@@ -1,6 +1,4 @@
-import AOS from 'aos'
 import 'aos/dist/aos.css'
-
 import '~/styles/global.css'
 import '~/styles/aboutComponent.css'
 import '~/styles/aboutDetailsPage.css'
@@ -17,9 +15,11 @@ import '~/styles/serviceComponent.css'
 import '~/styles/servicePage.css'
 import '~/styles/testimonialsComponent.css'
 
+import AOS from 'aos'
 import type { AppProps } from 'next/app'
 import { lazy } from 'react'
 import { useEffect } from 'react'
+
 import RootContainer from '~/components/common/RootContainer'
 
 export interface SharedPageProps {

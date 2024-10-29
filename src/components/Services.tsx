@@ -1,5 +1,5 @@
-import { Heading } from './common/Heading'
 import { services } from '../data/index'
+import { Heading } from './common/Heading'
 
 const Services = () => {
   return (

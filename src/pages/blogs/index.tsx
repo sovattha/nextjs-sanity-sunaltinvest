@@ -1,6 +1,7 @@
+import Link from 'next/link'
+
 import { Heading } from '~/components/common/Heading'
 import { blogs } from '~/data/index'
-import Link from 'next/link'
 
 const Blogs = () => {
   return (

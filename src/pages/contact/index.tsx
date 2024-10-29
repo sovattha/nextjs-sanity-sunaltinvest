@@ -1,8 +1,10 @@
-import { Heading } from '../../components/common/Heading'
-import { contact } from '~/data/index'
-import axios from 'axios'
 import { Alert } from '@mui/material'
+import axios from 'axios'
 import { useState } from 'react'
+
+import { contact } from '~/data/index'
+
+import { Heading } from '../../components/common/Heading'
 
 const Contact = () => {
   const [formData, setFormData] = useState({

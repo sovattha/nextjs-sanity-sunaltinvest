@@ -24,7 +24,7 @@ import {
     YouTube,
   } from '@mui/icons-material'
   import { Link } from 'next/link'
-  
+
   import { Heading } from '~/components/common/Heading'
   
   export const navlink = [
